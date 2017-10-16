@@ -3,8 +3,7 @@
 # run this script via: bash run.sh
 
 # run the unit tests
-unittest
+python -m unittest tests
 
 # run the PEP8 checker
-pycodestyle utils.py
-pycodestyle tests.py
+pycodestyle utils.py tests.py
